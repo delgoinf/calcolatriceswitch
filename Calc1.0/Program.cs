@@ -10,7 +10,7 @@ namespace Calc1._0
         {
             double n1 = Class1.Num();
             double n2 = Class1.Num();
-            double risulato = Class1.Num();
+            double? risulato = Class1.operazioni(n1,n2);
             Console.Write($"{risulato}");
 
         }
